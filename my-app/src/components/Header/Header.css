@@ -1,0 +1,253 @@
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  color: white;
+  padding: 30px 64px;
+  z-index: 10;
+  margin: auto;
+}
+
+header nav {
+  width: 100%;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navLogo {
+  width: 90px;
+}
+
+.navLogo img {
+  width: 100%;
+}
+
+.navToggle {
+  height: 30px;
+  color: white;
+  position: relative;
+  transform: translateY(-15px);
+  width: 55px;
+  cursor: pointer;
+}
+
+.navToggle:before,
+.navToggle:after,
+.navToggle-div {
+  background: #fff;
+  content: "";
+  display: block;
+  height: 18px;
+  clip-path: polygon(11% 42%, 84% 42%, 77% 100%, 0% 100%);
+}
+
+.navToggle::before {
+  transform: translate(5px, 6px) !important;
+}
+
+.navToggle::after {
+  transform: translateY(-6px) translateX(-4px) !important;
+}
+
+.sidenav {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+
+  z-index: 10;
+  top: 0;
+  right: -105%;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.menu-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 40px;
+  font-size: 60px;
+  cursor: pointer;
+  color: #000;
+}
+.menu__item {
+  position: relative;
+  padding: 2vh 6vw;
+  opacity: 0;
+}
+
+.menu__item-link {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  transition: opacity 0.4s;
+  color: #000;
+  text-decoration: none;
+  font-family: "Druk-Wide-Medium", sans-serif;
+}
+
+.menu__item-link::before {
+  all: initial;
+  position: absolute;
+  bottom: 60%;
+  left: 0;
+  pointer-events: none;
+}
+
+.menu__item-link:hover {
+  transition-duration: 0.1s;
+  opacity: 0;
+}
+.menu__item-img {
+  z-index: 2;
+  pointer-events: none;
+  height: 12vh;
+  max-height: 600px;
+  opacity: 0;
+  left: 8%;
+  top: 10%;
+  transform: scale(0);
+}
+
+.menu__item-link:hover + .menu__item-img {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 0.4s;
+}
+
+.menu {
+  padding: 10vh 0 25vh;
+  --offset: 20vw;
+  --move--initial: calc(-25% + var(--offset));
+  --move--final: calc(-50% +var(--offset));
+  font-size: 7vw;
+}
+
+.menu__item-spans {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  color: rgb(217, 217, 217);
+  pointer-events: none;
+  font-family: "Druk-Wide-Medium", sans-serif;
+}
+.menu__item-span {
+  width: fit-content;
+  display: flex;
+  position: relative;
+  opacity: 0;
+  transition: all 0.1s;
+  transform: translateX(60px);
+}
+.menu__item-link:hover ~ .menu__item-spans .menu__item-span {
+  opacity: 1;
+  transform: translateX(0px);
+  transition-duration: 0.4s;
+}
+
+.menu__item-link,
+.menu__item-spans span {
+  white-space: nowrap;
+  font-size: 7vw;
+  padding: 0 1vw;
+  line-height: 1.15;
+}
+
+.menu__item-spans span {
+  font-style: italic;
+}
+
+@media screen and (min-width: 320px) and (max-width: 370px) {
+  header {
+    padding: 0px 8px;
+    margin-top: 15px;
+  }
+
+  header nav {
+    width: 95%;
+    margin: auto;
+  }
+
+  .navLogo {
+    width: 70px;
+  }
+
+  .navToggle {
+    transform: translateY(-18px);
+  }
+  .menu-close {
+    top: 80%;
+    right: 50%;
+    transform: translateX(50%);
+  }
+}
+
+@media screen and (min-width: 370px) and (max-width: 414px) {
+  header {
+    padding: 0px 8px;
+    margin-top: 15px;
+  }
+
+  header nav {
+    width: 95%;
+    margin: auto;
+  }
+
+  .navLogo {
+    width: 70px;
+  }
+
+  .navToggle {
+    transform: translateY(-18px);
+  }
+  .menu-close {
+    top: 80%;
+    right: 50%;
+    transform: translateX(50%);
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 768px) {
+  header {
+    padding: 0px 8px;
+    margin-top: 15px;
+  }
+
+  header nav {
+    width: 95%;
+    margin: auto;
+  }
+
+  .navLogo {
+    width: 70px;
+  }
+
+  .navToggle {
+    transform: translateY(-18px);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header {
+    padding: 0px 8px;
+    margin-top: 15px;
+  }
+
+  header nav {
+    width: 95%;
+    margin: auto;
+  }
+
+  .navLogo {
+    width: 70px;
+  }
+
+  .navToggle {
+    transform: translateY(-18px);
+  }
+}

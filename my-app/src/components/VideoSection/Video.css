@@ -1,0 +1,51 @@
+.video {
+  height: 100vh;
+  background-color: wheat;
+  background-image: url(../../assets/img/videobg.webp);
+  background-position: center;
+}
+.fullscreen-bg {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  /* z-index: -100;  */
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 370px) {
+  .video{
+    padding: 30px;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 370px) and (max-width: 414px) {
+  .video{
+    padding: 30px;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 768px) {
+  .video{
+    padding: 30px;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .video{
+    padding: 30px;
+    overflow: hidden;
+  }
+}

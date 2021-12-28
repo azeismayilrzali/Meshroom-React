@@ -1,0 +1,371 @@
+.haveProject {
+  width: 100%;
+  padding-bottom: 4%;
+  background-image: url(../../assets/img/Group_741_2x-transparent-brush.webp),
+    url(../../assets/img/Group763.webp);
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, cover;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.haveLeft {
+  margin-top: 20%;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.haveLeftHeading div h2 {
+  font-size: 64px;
+  font-weight: 500;
+  font-family: "Druk-Wide-Medium", sans-serif;
+  width: 70%;
+}
+
+.haveLeftHeading div p {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 25px;
+  font-family: "Josefin-Sans", sans-serif !important;
+}
+
+.haveLeftForm {
+  margin-top: 8%;
+}
+
+.haveLeftForm form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.haveLeftForm form label {
+  font-size: 25px;
+  margin-bottom: 50px;
+  font-family: "Josefin-Sans", sans-serif;
+  position: relative;
+}
+
+.haveLeftForm form label p {
+  margin-bottom: 26px;
+}
+
+.haveLeftForm form label input {
+  width: 20%;
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-family: "Josefin-Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  overflow: hidden;
+}
+
+.haveButton {
+  margin: 15px 4%;
+}
+
+.haveRight {
+  margin-top: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.haveRightTop {
+  width: 42%;
+}
+
+.haveRightTop img {
+  width: 100%;
+}
+
+.haveRightBottom {
+  width: 85%;
+}
+
+.haveRightBottom img {
+  width: 100%;
+}
+
+.haveLeftForm form label img {
+  width: auto;
+  height: auto;
+}
+
+.request_quote {
+  padding-top: 27px !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 370px) {
+  .haveLeft {
+    margin-top: 18%;
+    width: 100%;
+    padding: 0px 10px;
+  }
+
+  .haveLeftHeading {
+    width: 100%;
+  }
+
+  .haveLeftHeading div h2 {
+    width: 100%;
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .haveLeftForm form label img {
+    width: 100%;
+  }
+
+  .haveLeftForm form label input {
+    width: 70%;
+    top: 64%;
+    left: 15%;
+  }
+
+  .seeAllInside {
+    /* padding-top: 22px; */
+  }
+
+  .haveRight {
+    margin-top: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .haveRightTop {
+    width: 100%;
+    display: none;
+  }
+
+  .haveRightTop img {
+    width: 100%;
+  }
+
+  .haveRightBottom {
+    width: 100%;
+  }
+
+  .haveRightBottom img {
+    width: 100%;
+  }
+
+  .haveProject {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .haveButton {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 370px) and (max-width: 414px) {
+  .haveLeft {
+    margin-top: 18%;
+    width: 100%;
+    padding: 0px 10px;
+  }
+
+  .haveLeftHeading {
+    width: 100%;
+  }
+
+  .haveLeftHeading div h2 {
+    width: 100%;
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .haveLeftForm form label img {
+    width: 100%;
+  }
+
+  .haveLeftForm form label input {
+    width: 70%;
+    top: 64%;
+    left: 15%;
+  }
+
+  .seeAllInside {
+    /* padding-top: 22px; */
+  }
+
+  .haveRight {
+    margin-top: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .haveRightTop {
+    width: 100%;
+    display: none;
+  }
+
+  .haveRightTop img {
+    width: 100%;
+  }
+
+  .haveRightBottom {
+    width: 100%;
+  }
+
+  .haveRightBottom img {
+    width: 100%;
+  }
+
+  .haveProject {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .haveButton {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 768px) {
+  .haveLeft {
+    margin-top: 18%;
+    width: 100%;
+    padding: 0px 10px;
+  }
+
+  .haveLeftHeading {
+    width: 100%;
+  }
+
+  .haveLeftHeading div h2 {
+    width: 100%;
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .haveLeftForm form label img {
+    width: 100%;
+  }
+
+  .haveLeftForm form label input {
+    width: 70%;
+    top: 64%;
+    left: 15%;
+  }
+
+  .seeAllInside {
+    /* padding-top: 22px; */
+  }
+
+  .haveRight {
+    margin-top: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .haveRightTop {
+    width: 100%;
+    display: none;
+  }
+
+  .haveRightTop img {
+    width: 100%;
+  }
+
+  .haveRightBottom {
+    width: 100%;
+  }
+
+  .haveRightBottom img {
+    width: 100%;
+  }
+
+  .haveProject {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .haveButton {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .haveLeft {
+    margin-top: 18%;
+    width: 100%;
+    padding: 0px 10px;
+  }
+
+  .haveLeftHeading {
+    width: 100%;
+  }
+
+  .haveLeftHeading div h2 {
+    width: 100%;
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .haveLeftForm form label img {
+    width: 100%;
+  }
+
+  .haveLeftForm form label input {
+    width: 70%;
+    top: 64%;
+    left: 15%;
+  }
+  .haveRight {
+    margin-top: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .haveRightTop {
+    width: 100%;
+    display: none;
+  }
+
+  .haveRightTop img {
+    width: 100%;
+  }
+
+  .haveRightBottom {
+    width: 100%;
+  }
+
+  .haveRightBottom img {
+    width: 100%;
+  }
+
+  .haveProject {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .haveButton {
+    margin: 0 auto;
+  }
+}
